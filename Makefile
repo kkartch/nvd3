@@ -40,7 +40,7 @@ CSS_FILES = \
 	src/nv.d3.css
 
 JS_COMPILER = \
-	uglifyjs
+	uglify
 
 CSS_COMPILER = \
 	cssmin
