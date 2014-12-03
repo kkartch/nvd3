@@ -5591,6 +5591,7 @@ nv.models.lineChart = function() {
            .svgContainer(container)
            .xScale(x);
         wrap.select(".nv-interactive").call(interactiveLayer);
+      }
 
       lines
         .width(availableWidth)
