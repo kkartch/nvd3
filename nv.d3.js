@@ -1158,7 +1158,7 @@ nv.utils.optionsFunc = function(args) {
           var w = (scale.range().length==2) ? scale.range()[1] : (scale.range()[scale.range().length-1]+(scale.range()[1]-scale.range()[0]));
           axisLabel
               .attr('text-anchor', 'middle')
-              .attr('y', xLabelMargin)
+              .attr('y', 60)
               .attr('x', w/2);
           if (showMaxMin) {
           //if (showMaxMin && !isOrdinal) {
